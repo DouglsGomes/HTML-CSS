@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Playwrite+HU:wght@100..400&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Playwrite+HU:wght@100..400&family=Sriracha&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: "Passion One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+}
+
 
 *{
     margin: 0px;
@@ -9,20 +19,26 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte01);
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 50px;
+   
+    
 }
 header > h1{
-    padding: 50px;
+    font-size: 4em;
     font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
     
 }
 header > p{
-    padding: 50px;
+    padding-bottom: 50px;
 }
 header a, footer a{
     color: white;
@@ -38,6 +54,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 40px;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
@@ -49,7 +67,8 @@ section.imagem{
     
 }
 section.imagem > p{
-    width: 200px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.349);
 }
 
