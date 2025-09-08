@@ -56,7 +56,11 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    
 }
+section > p {
+    font-size: 10vw;
+} 
 
 
 section.normal{
