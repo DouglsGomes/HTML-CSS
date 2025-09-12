@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            padding-bottom: 10px;
+            font-weight: bolder;
+        }
+        .nome{
+            background-color: aqua;
+        }
+        .sexo{
+            background-color: burlywood;
+        }
+        .profissão{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <strong>
+        <h1>Exercício de Tabela</h1>
+    </strong>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="profissão" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Annabeth</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Percy</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Biologo</td>
+        </tr>
+        <tr>
+            <td>Grover</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Históriador</td>
+        </tr>
+        <tr>
+            <td>Luke</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Político</td>
+        </tr>
+        <tr>
+            <td>Thalia</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Caçadora</td>
+        </tr>
+        <tr>
+            <td>Nico</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Coveiro</td>
+        </tr>
+    </table>
+</body>
+</html>
