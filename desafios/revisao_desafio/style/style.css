@@ -81,9 +81,11 @@ nav>a:hover{
 main{
     background-color: white;
     margin: auto;
-    max-width: 800px;
+    max-width: 900px;
     min-width: 320px; 
     padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
 }
 main > h1{
     font-family: var(--fonte_android);
@@ -106,12 +108,89 @@ main >h2{
     color: var(--cor5);
 }
 
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a5c37;
+    background-color: #3ddc84;
+    padding: 5px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: #1a5c37bd;
+    
+}
+.links::after{
+    content: '\1F517';
+}
+
 main > p{
     font-family: var(--fonte_padrao);
     font-size: 1em;
     line-height: 2em;
     text-indent: 20px;
+    padding:15px;
+    
 }
-img{
-    width: 100%;
+
+main > img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+section{
+    background-color: #3ddc84;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+}
+section>p{
+    padding: 10px;
+    text-indent: 20px;
+}
+main>section>h3{
+    background-color: #1a5c37;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+   
+
+}
+main>section>ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+div.video{
+    background-color: #1a5c37;
+    margin: 0px -20px 30px -20px;
+    padding: 20;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video>iframe{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 95%;
+    height: 95%;
+}
+footer{
+    padding-top: 20px;
+}
+
+
+footer>p{
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte_padrao);
+    
 }
