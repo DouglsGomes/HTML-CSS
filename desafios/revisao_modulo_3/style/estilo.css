@@ -14,6 +14,7 @@
 
 body{
     height: 100vh;
+     
 }
 
 header{
@@ -26,12 +27,15 @@ header>h1{
     text-align: center;
     font-family: var(--fonte_passion);
     font-variant: small-caps;
-    font-size: 5em;
+    font-size: 7vw;
 }
 header>p{
     color: white;
     padding-top: 10px;
     text-align: center;
+}
+.site:hover{
+    text-decoration: underline;
 }
 header>p>a{
     text-decoration: none;
@@ -40,10 +44,39 @@ header>p>a{
 }
 main{
     padding: 30px;
+    font-size: 2.5em;
+    line-height: 1.7em;
+    font-family: var(--fonte_sriracha);
 }
-.branco{
-    background-color: rgb(119, 145, 145);
+main > p{
+   
+}
+section > p {
+    padding-bottom: 3m;
+}
+.normal{
+    padding: 10px;
+    background-color: white;
+    color: black;
+   
+
+}
+section.imag>p{
+    display: inline-block;
+    background-color: rgba(15, 15, 15, 0.342);
+    color: white;
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 footer{
-
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
