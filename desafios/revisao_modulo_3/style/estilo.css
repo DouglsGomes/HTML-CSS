@@ -12,6 +12,10 @@
     --fonte_sriracha: "Sriracha", cursive;
 }
 
+body{
+    height: 100vh;
+}
+
 header{
     background-color: black;
     padding: 80px;
@@ -22,6 +26,7 @@ header>h1{
     text-align: center;
     font-family: var(--fonte_passion);
     font-variant: small-caps;
+    font-size: 5em;
 }
 header>p{
     color: white;
