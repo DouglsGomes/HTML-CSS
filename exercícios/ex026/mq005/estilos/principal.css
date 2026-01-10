@@ -4,16 +4,16 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 html, body{
-    width: 100vw;
-    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.377);
     
 }
 
 header{
-    background-color: orange;
+    background-color: 	#78c3fb;
     
 }
 header >h1{
@@ -21,7 +21,7 @@ header >h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     
@@ -37,6 +37,49 @@ menu>ul>li>a{
     color: aliceblue;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(161, 108, 9, 0.747);
-    border: 1px solid bla;
+    background-color: 	#018394;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: 	#00bfb2;
+    
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    background-color: #a1d3d9c9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+main>article{
+    
+}
+main>article>h2{
+   text-align: center;
+   padding-bottom: 15px;
+
+}
+main>article>p{
+    text-indent: 20px;
+    margin-bottom: 20px;
+
+}
+span#burguer{
+    background-color: #185f65;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: #00bfb2;
+    color: black;
 }
